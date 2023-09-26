@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebWizardry Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar">
+            <div></div>
+                <h1>WebWizardry Chat</h1>
+            </div>
+            <a href="#">Chat</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        
+        <video autoplay loop muted poster="your-poster-image.jpg">
+            <source src="your-video.mp4" type="video/mp4">
+            <!-- Add additional source elements for different video formats if needed -->
+        </video>
+
+        <div class="hero-left">
+                <h2 class="hero-heading">Welcome to WebWizardry Chat</h2>
+                <p class="hero-subheading">Chat with Multiple Users in Real Time</p>
+                <!-- Button on the left side of the hero section -->
+                <button class="cta-button" onclick="scrollToChat()">Chat Now</button>
+
+                <button class="chatbot-toggler">
+                    <span class="material-symbols-rounded">mode_comment</span>
+                    <span class="material-symbols-outlined">close</span>
+                  </button>
+                  <div class="chatbot">
+                    <header>
+                      <h2>WebWizardry Chat</h2>
+                      <span class="close-btn material-symbols-outlined">close</span>
+                    </header>
+                    <ul class="chatbox">
+                      <li class="chat incoming">
+                        <span class="material-symbols-outlined">smart_toy</span>
+                        <p>Hi there 👋<br>How can I help you today?</p>
+                      </li>
+                    </ul>
+                    <div class="chat-input">
+                      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                      <span id="send-btn" class="material-symbols-rounded">send</span>
+                    </div>
+                  </div>
+
+
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="src/Bot.png" alt="Bouncing Image" class="bouncing-image">
+        </div>
+    </section>
+
+    
+    <section>
+        <!-- partial:index.partial.html -->
+            <div class="container info">
+                <div class="card">
+                    <div class="circle">
+                        <h2>01</h2>
+                    </div>
+                    <div class="content">
+                        <div><big><h1>Wizardry Team Leader</h1></big></div>
+                        <div><b>Darshit Sheth</b></div>
+                        <div><b>21BCS7782</b></div>
+                        <div><b>BE-CSE</b></div>
+                        <a href="#">Full Stack Developer</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle">
+                        <h2>02</h2>
+                    </div>
+                    <div class="content">
+                        <div><big><h1>Wizardry Members</h1></big></div>
+                        <div><b>Saurabh Sishodiya</b></div>
+                        <div><b>21BCS7520</b></div>
+                        <div><b>BE-CSE</b></div>
+                        <a href="#">Backend Developer</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle">
+                        <h2>03</h2>
+                    </div>
+                    <div class="content">
+                        <div><big><h1>Wizardry Members</h1></big></div>
+                        <div><b>Rajneesh Thakur</b></div>
+                        <div><b>21BCS7840</b></div>
+                        <div><b>BE-CSE</b></div>
+                        <a href="#">Front End Devrloper</a>
+                    </div>
+                </div>
+            </div>
+            <!-- partial -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        &copy; 2023 WebWizardry Chat. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
